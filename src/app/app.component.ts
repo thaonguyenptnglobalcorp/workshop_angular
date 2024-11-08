@@ -9,7 +9,7 @@ import { firstValueFrom } from 'rxjs';
 })
 export class AppComponent {
   title = 'Workshop Angular';
-  baseUrl = 'https://workshopdotnet.vercel.app/api/Home';
+  baseUrl = 'https://dotnet-api-hno4.onrender.com/api/Home';
   value = 1;
 
   constructor(private http: HttpClient) {
