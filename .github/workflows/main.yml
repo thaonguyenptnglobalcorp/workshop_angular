@@ -2,7 +2,7 @@ name: Vercel Deployment
 env:
   # THIS KEY VALUE STORE IN GITHUB ACTION. 
   # GITHUB.COM > SETTINGS > SECRETS AND VARIABLES > ACTIONS > REPOSITORY SECRETS.
-  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN_TEST }}
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 on:
   push:
     branches:
