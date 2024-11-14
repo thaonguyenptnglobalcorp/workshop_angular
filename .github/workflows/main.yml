@@ -30,7 +30,7 @@ jobs:
       #SET ENVIRONMENT IN VERCEL. 
       #CREATE ENVIRONMENT IN VERCEL & BUILD IN VERCEL.
       - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=development --token=${{ env.VERCEL_TOKEN }}
+        run: vercel pull --yes --environment=production --token=${{ env.VERCEL_TOKEN }}
       - name: Build Project Artifacts
         run: vercel build --prod --token=${{ env.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts to Vercel  
